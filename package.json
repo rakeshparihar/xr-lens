@@ -1,0 +1,31 @@
+{
+  "name": "xr-lens",
+  "version": "0.1.0",
+  "description": "WebXR point-and-ask: on-device SigLIP answers when confident, a VLM behind an OpenAI-compatible API answers when not; measured trade-off",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "typecheck": "tsc",
+    "bench:edge": "node bench/edge.mjs",
+    "bench:cloud": "vite-node bench/cloud.ts",
+    "bench:sweep": "vite-node bench/sweep.ts",
+    "models": "huggingface-cli download Xenova/siglip-base-patch16-224 --local-dir public/models/Xenova/siglip-base-patch16-224 --include '*.json' '*.model' 'onnx/vision_model_quantized.onnx' 'onnx/text_model_quantized.onnx'"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@huggingface/transformers": "^3.1.2",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/three": "^0.170.0",
+    "@types/webxr": "^0.5.20",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8",
+    "playwright": "^1.49.1"
+  },
+  "type": "module",
+  "private": true
+}
