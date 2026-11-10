@@ -1,0 +1,1688 @@
+{
+  "date": "2026-11-10",
+  "model": "HuggingFaceTB/SmolVLM-256M-Instruct (CPU, 2 threads, proxy for a cloud VLM)",
+  "labels": [
+    "Tshirts",
+    "Shirts",
+    "Casual Shoes",
+    "Watches",
+    "Sports Shoes",
+    "Kurtas",
+    "Tops",
+    "Handbags",
+    "Heels",
+    "Sunglasses",
+    "Wallets",
+    "Flip Flops",
+    "Sandals",
+    "Briefs",
+    "Belts",
+    "Backpacks",
+    "Socks",
+    "Formal Shoes",
+    "Perfume and Body Mist",
+    "Jeans",
+    "Shorts",
+    "Trousers",
+    "Flats",
+    "Bra",
+    "Dresses",
+    "Sarees",
+    "Earrings",
+    "Deodorant",
+    "Track Pants",
+    "Clutches"
+  ],
+  "rows": [
+    {
+      "file": "000.jpg",
+      "label": "Tshirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": true,
+      "ms": 1717.495348,
+      "requestBytes": 3608
+    },
+    {
+      "file": "001.jpg",
+      "label": "Sandals",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1941.547256,
+      "requestBytes": 2732
+    },
+    {
+      "file": "002.jpg",
+      "label": "Track Pants",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1750.1146880000006,
+      "requestBytes": 3208
+    },
+    {
+      "file": "003.jpg",
+      "label": "Track Pants",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1702.2549490000001,
+      "requestBytes": 3352
+    },
+    {
+      "file": "004.jpg",
+      "label": "Tops",
+      "inCatalog": true,
+      "raw": "Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1902.7558729999992,
+      "requestBytes": 3996
+    },
+    {
+      "file": "005.jpg",
+      "label": "Flip Flops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1986.9819389999993,
+      "requestBytes": 4856
+    },
+    {
+      "file": "006.jpg",
+      "label": "Bra",
+      "inCatalog": false,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1614.7756360000003,
+      "requestBytes": 4120
+    },
+    {
+      "file": "007.jpg",
+      "label": "Watches",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1629.2858540000016,
+      "requestBytes": 4164
+    },
+    {
+      "file": "008.jpg",
+      "label": "Heels",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1689.8766450000003,
+      "requestBytes": 2928
+    },
+    {
+      "file": "009.jpg",
+      "label": "Shirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1636.6996870000003,
+      "requestBytes": 3400
+    },
+    {
+      "file": "010.jpg",
+      "label": "Backpacks",
+      "inCatalog": false,
+      "raw": "Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1635.307538000001,
+      "requestBytes": 3380
+    },
+    {
+      "file": "011.jpg",
+      "label": "Perfume and Body Mist",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1745.0502269999997,
+      "requestBytes": 1948
+    },
+    {
+      "file": "012.jpg",
+      "label": "Belts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1743.6947959999998,
+      "requestBytes": 2876
+    },
+    {
+      "file": "013.jpg",
+      "label": "Shirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1656.4180510000006,
+      "requestBytes": 3436
+    },
+    {
+      "file": "014.jpg",
+      "label": "Casual Shoes",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1753.5101539999996,
+      "requestBytes": 2684
+    },
+    {
+      "file": "015.jpg",
+      "label": "Shirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1862.7212580000014,
+      "requestBytes": 4032
+    },
+    {
+      "file": "016.jpg",
+      "label": "Flats",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1738.3293320000012,
+      "requestBytes": 2656
+    },
+    {
+      "file": "017.jpg",
+      "label": "Socks",
+      "inCatalog": false,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1773.9175080000023,
+      "requestBytes": 2964
+    },
+    {
+      "file": "018.jpg",
+      "label": "Tops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1668.1007360000003,
+      "requestBytes": 2856
+    },
+    {
+      "file": "019.jpg",
+      "label": "Kurtas",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1710.834401,
+      "requestBytes": 3192
+    },
+    {
+      "file": "020.jpg",
+      "label": "Dresses",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1663.299383999998,
+      "requestBytes": 3652
+    },
+    {
+      "file": "021.jpg",
+      "label": "Sarees",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1697.2066599999962,
+      "requestBytes": 3496
+    },
+    {
+      "file": "022.jpg",
+      "label": "Casual Shoes",
+      "inCatalog": true,
+      "raw": "T-Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1645.9273399999947,
+      "requestBytes": 2612
+    },
+    {
+      "file": "023.jpg",
+      "label": "Tops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1617.7310639999996,
+      "requestBytes": 3480
+    },
+    {
+      "file": "024.jpg",
+      "label": "Dresses",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1600.707669000003,
+      "requestBytes": 3652
+    },
+    {
+      "file": "025.jpg",
+      "label": "Shirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2199.0731650000016,
+      "requestBytes": 3748
+    },
+    {
+      "file": "026.jpg",
+      "label": "Briefs",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1574.941006000001,
+      "requestBytes": 4432
+    },
+    {
+      "file": "027.jpg",
+      "label": "Flip Flops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1728.2021929999974,
+      "requestBytes": 2620
+    },
+    {
+      "file": "028.jpg",
+      "label": "Briefs",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1796.316706000005,
+      "requestBytes": 4036
+    },
+    {
+      "file": "029.jpg",
+      "label": "Sandals",
+      "inCatalog": true,
+      "raw": "Clothes.",
+      "pred": null,
+      "correct": false,
+      "ms": 1673.515293999997,
+      "requestBytes": 2668
+    },
+    {
+      "file": "030.jpg",
+      "label": "Heels",
+      "inCatalog": true,
+      "raw": "Shorts.",
+      "pred": "Shorts",
+      "correct": false,
+      "ms": 1632.9765319999933,
+      "requestBytes": 2900
+    },
+    {
+      "file": "031.jpg",
+      "label": "Flats",
+      "inCatalog": false,
+      "raw": "Shoes.",
+      "pred": null,
+      "correct": false,
+      "ms": 2433.7999499999933,
+      "requestBytes": 2716
+    },
+    {
+      "file": "032.jpg",
+      "label": "Handbags",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1610.1335990000007,
+      "requestBytes": 3436
+    },
+    {
+      "file": "033.jpg",
+      "label": "Casual Shoes",
+      "inCatalog": true,
+      "raw": "T-Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1642.473788000003,
+      "requestBytes": 2744
+    },
+    {
+      "file": "034.jpg",
+      "label": "Casual Shoes",
+      "inCatalog": true,
+      "raw": "T-Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1768.809540000002,
+      "requestBytes": 2720
+    },
+    {
+      "file": "035.jpg",
+      "label": "Clutches",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1772.5771260000038,
+      "requestBytes": 2668
+    },
+    {
+      "file": "036.jpg",
+      "label": "Watches",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1742.8753649999999,
+      "requestBytes": 4588
+    },
+    {
+      "file": "037.jpg",
+      "label": "Tshirts",
+      "inCatalog": true,
+      "raw": "Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1738.2044559999922,
+      "requestBytes": 3668
+    },
+    {
+      "file": "038.jpg",
+      "label": "Belts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1967.4903150000027,
+      "requestBytes": 2672
+    },
+    {
+      "file": "039.jpg",
+      "label": "Casual Shoes",
+      "inCatalog": true,
+      "raw": "T-Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 2080.7214349999995,
+      "requestBytes": 2560
+    },
+    {
+      "file": "040.jpg",
+      "label": "Heels",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2158.25761700001,
+      "requestBytes": 2200
+    },
+    {
+      "file": "041.jpg",
+      "label": "Wallets",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1820.6341680000041,
+      "requestBytes": 2376
+    },
+    {
+      "file": "042.jpg",
+      "label": "Shorts",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1756.5587990000058,
+      "requestBytes": 2860
+    },
+    {
+      "file": "043.jpg",
+      "label": "Heels",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1810.850019000005,
+      "requestBytes": 2340
+    },
+    {
+      "file": "044.jpg",
+      "label": "Sports Shoes",
+      "inCatalog": true,
+      "raw": "T-shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1687.6022450000019,
+      "requestBytes": 3112
+    },
+    {
+      "file": "045.jpg",
+      "label": "Trousers",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1717.8988949999912,
+      "requestBytes": 3472
+    },
+    {
+      "file": "046.jpg",
+      "label": "Shorts",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1584.796979000006,
+      "requestBytes": 3560
+    },
+    {
+      "file": "047.jpg",
+      "label": "Wallets",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1605.330747,
+      "requestBytes": 2432
+    },
+    {
+      "file": "048.jpg",
+      "label": "Belts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1578.7815839999967,
+      "requestBytes": 2556
+    },
+    {
+      "file": "049.jpg",
+      "label": "Tops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1690.9270249999972,
+      "requestBytes": 3456
+    },
+    {
+      "file": "050.jpg",
+      "label": "Belts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1706.129976000011,
+      "requestBytes": 2632
+    },
+    {
+      "file": "051.jpg",
+      "label": "Flip Flops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1702.5974910000077,
+      "requestBytes": 2756
+    },
+    {
+      "file": "052.jpg",
+      "label": "Briefs",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1769.7057269999932,
+      "requestBytes": 2656
+    },
+    {
+      "file": "053.jpg",
+      "label": "Clutches",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1689.1916870000132,
+      "requestBytes": 2652
+    },
+    {
+      "file": "054.jpg",
+      "label": "Perfume and Body Mist",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1590.225191999998,
+      "requestBytes": 2388
+    },
+    {
+      "file": "055.jpg",
+      "label": "Handbags",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1719.5499989999953,
+      "requestBytes": 3360
+    },
+    {
+      "file": "056.jpg",
+      "label": "Handbags",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1849.154714999997,
+      "requestBytes": 2956
+    },
+    {
+      "file": "057.jpg",
+      "label": "Sandals",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1842.5297629999986,
+      "requestBytes": 2736
+    },
+    {
+      "file": "058.jpg",
+      "label": "Heels",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1897.0586699999985,
+      "requestBytes": 2228
+    },
+    {
+      "file": "059.jpg",
+      "label": "Sunglasses",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1806.039340000003,
+      "requestBytes": 2364
+    },
+    {
+      "file": "060.jpg",
+      "label": "Tshirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": true,
+      "ms": 1840.1782210000092,
+      "requestBytes": 4700
+    },
+    {
+      "file": "061.jpg",
+      "label": "Handbags",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1960.0516709999938,
+      "requestBytes": 2640
+    },
+    {
+      "file": "062.jpg",
+      "label": "Track Pants",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2891.145300999997,
+      "requestBytes": 3348
+    },
+    {
+      "file": "063.jpg",
+      "label": "Handbags",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 2816.4912509999995,
+      "requestBytes": 3232
+    },
+    {
+      "file": "064.jpg",
+      "label": "Shorts",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1758.9362059999985,
+      "requestBytes": 3120
+    },
+    {
+      "file": "065.jpg",
+      "label": "Jeans",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1754.5932829999947,
+      "requestBytes": 3276
+    },
+    {
+      "file": "066.jpg",
+      "label": "Tops",
+      "inCatalog": true,
+      "raw": "Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1907.731209000005,
+      "requestBytes": 3536
+    },
+    {
+      "file": "067.jpg",
+      "label": "Perfume and Body Mist",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2527.743073999998,
+      "requestBytes": 2232
+    },
+    {
+      "file": "068.jpg",
+      "label": "Wallets",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 2490.450311000008,
+      "requestBytes": 2560
+    },
+    {
+      "file": "069.jpg",
+      "label": "Backpacks",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1717.6559890000062,
+      "requestBytes": 3088
+    },
+    {
+      "file": "070.jpg",
+      "label": "Bra",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1606.6662979999965,
+      "requestBytes": 2916
+    },
+    {
+      "file": "071.jpg",
+      "label": "Earrings",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1616.0959729999886,
+      "requestBytes": 2132
+    },
+    {
+      "file": "072.jpg",
+      "label": "Sandals",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1725.2712219999958,
+      "requestBytes": 2564
+    },
+    {
+      "file": "073.jpg",
+      "label": "Sandals",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1656.227843999979,
+      "requestBytes": 2524
+    },
+    {
+      "file": "074.jpg",
+      "label": "Sunglasses",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1647.550921999995,
+      "requestBytes": 2332
+    },
+    {
+      "file": "075.jpg",
+      "label": "Kurtas",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1717.3676570000243,
+      "requestBytes": 3456
+    },
+    {
+      "file": "076.jpg",
+      "label": "Sarees",
+      "inCatalog": false,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1849.016351999977,
+      "requestBytes": 3376
+    },
+    {
+      "file": "077.jpg",
+      "label": "Backpacks",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1754.3505189999996,
+      "requestBytes": 3204
+    },
+    {
+      "file": "078.jpg",
+      "label": "Wallets",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1888.8012419999868,
+      "requestBytes": 2520
+    },
+    {
+      "file": "079.jpg",
+      "label": "Sunglasses",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1950.2073139999993,
+      "requestBytes": 2396
+    },
+    {
+      "file": "080.jpg",
+      "label": "Shirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2018.7475580000028,
+      "requestBytes": 3728
+    },
+    {
+      "file": "081.jpg",
+      "label": "Wallets",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1919.4733049999923,
+      "requestBytes": 2844
+    },
+    {
+      "file": "082.jpg",
+      "label": "Heels",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2024.0366970000032,
+      "requestBytes": 2432
+    },
+    {
+      "file": "083.jpg",
+      "label": "Flats",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1753.1804309999861,
+      "requestBytes": 2164
+    },
+    {
+      "file": "084.jpg",
+      "label": "Perfume and Body Mist",
+      "inCatalog": false,
+      "raw": "Body Mist.",
+      "pred": null,
+      "correct": false,
+      "ms": 1700.519284000009,
+      "requestBytes": 2116
+    },
+    {
+      "file": "085.jpg",
+      "label": "Kurtas",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1713.7973130000173,
+      "requestBytes": 3244
+    },
+    {
+      "file": "086.jpg",
+      "label": "Kurtas",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1708.3619500000204,
+      "requestBytes": 3452
+    },
+    {
+      "file": "087.jpg",
+      "label": "Casual Shoes",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1921.0410660000052,
+      "requestBytes": 2864
+    },
+    {
+      "file": "088.jpg",
+      "label": "Dresses",
+      "inCatalog": false,
+      "raw": "Formal Shoes.",
+      "pred": "Formal Shoes",
+      "correct": false,
+      "ms": 1991.27892099999,
+      "requestBytes": 3676
+    },
+    {
+      "file": "089.jpg",
+      "label": "Sports Shoes",
+      "inCatalog": true,
+      "raw": "Shoes.",
+      "pred": null,
+      "correct": false,
+      "ms": 1731.3307460000215,
+      "requestBytes": 2664
+    },
+    {
+      "file": "090.jpg",
+      "label": "Socks",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1953.5418460000074,
+      "requestBytes": 2732
+    },
+    {
+      "file": "091.jpg",
+      "label": "Kurtas",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2201.8940329999896,
+      "requestBytes": 3940
+    },
+    {
+      "file": "092.jpg",
+      "label": "Socks",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1770.4887570000137,
+      "requestBytes": 2732
+    },
+    {
+      "file": "093.jpg",
+      "label": "Sandals",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1714.238898999989,
+      "requestBytes": 3100
+    },
+    {
+      "file": "094.jpg",
+      "label": "Trousers",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1951.3447820000001,
+      "requestBytes": 3332
+    },
+    {
+      "file": "095.jpg",
+      "label": "Sports Shoes",
+      "inCatalog": true,
+      "raw": "T-Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1834.638799999986,
+      "requestBytes": 2608
+    },
+    {
+      "file": "096.jpg",
+      "label": "Briefs",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1653.7645720000146,
+      "requestBytes": 4012
+    },
+    {
+      "file": "097.jpg",
+      "label": "Watches",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1575.1246939999983,
+      "requestBytes": 3760
+    },
+    {
+      "file": "098.jpg",
+      "label": "Trousers",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1718.6215530000045,
+      "requestBytes": 3568
+    },
+    {
+      "file": "099.jpg",
+      "label": "Earrings",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1988.3799369999906,
+      "requestBytes": 2028
+    },
+    {
+      "file": "100.jpg",
+      "label": "Handbags",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1793.102853999997,
+      "requestBytes": 3144
+    },
+    {
+      "file": "101.jpg",
+      "label": "Shirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1749.6208800000022,
+      "requestBytes": 3668
+    },
+    {
+      "file": "102.jpg",
+      "label": "Heels",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1933.6399589999928,
+      "requestBytes": 2564
+    },
+    {
+      "file": "103.jpg",
+      "label": "Handbags",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 2285.204652000015,
+      "requestBytes": 3300
+    },
+    {
+      "file": "104.jpg",
+      "label": "Tshirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": true,
+      "ms": 2951.3189300000085,
+      "requestBytes": 4032
+    },
+    {
+      "file": "105.jpg",
+      "label": "Shorts",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1916.6102289999835,
+      "requestBytes": 2524
+    },
+    {
+      "file": "106.jpg",
+      "label": "Shirts",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1870.1385850000079,
+      "requestBytes": 2736
+    },
+    {
+      "file": "107.jpg",
+      "label": "Belts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1784.3464130000211,
+      "requestBytes": 2832
+    },
+    {
+      "file": "108.jpg",
+      "label": "Formal Shoes",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1829.4729069999885,
+      "requestBytes": 2744
+    },
+    {
+      "file": "109.jpg",
+      "label": "Sunglasses",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2302.9388650000037,
+      "requestBytes": 2304
+    },
+    {
+      "file": "110.jpg",
+      "label": "Formal Shoes",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2035.1036519999907,
+      "requestBytes": 2864
+    },
+    {
+      "file": "111.jpg",
+      "label": "Trousers",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2364.2635369999916,
+      "requestBytes": 3360
+    },
+    {
+      "file": "112.jpg",
+      "label": "Tshirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": true,
+      "ms": 2236.754098000005,
+      "requestBytes": 3804
+    },
+    {
+      "file": "113.jpg",
+      "label": "Briefs",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2062.1070639999816,
+      "requestBytes": 2528
+    },
+    {
+      "file": "114.jpg",
+      "label": "Deodorant",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 3084.88646899999,
+      "requestBytes": 2312
+    },
+    {
+      "file": "115.jpg",
+      "label": "Briefs",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1937.9652810000116,
+      "requestBytes": 2788
+    },
+    {
+      "file": "116.jpg",
+      "label": "Sandals",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1622.7345729999943,
+      "requestBytes": 2964
+    },
+    {
+      "file": "117.jpg",
+      "label": "Watches",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1661.012859999988,
+      "requestBytes": 3108
+    },
+    {
+      "file": "118.jpg",
+      "label": "Tops",
+      "inCatalog": true,
+      "raw": "Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1765.2265709999774,
+      "requestBytes": 3532
+    },
+    {
+      "file": "119.jpg",
+      "label": "Clutches",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1727.152464999992,
+      "requestBytes": 2436
+    },
+    {
+      "file": "120.jpg",
+      "label": "Jeans",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1825.619802000001,
+      "requestBytes": 3332
+    },
+    {
+      "file": "121.jpg",
+      "label": "Watches",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1593.6396870000171,
+      "requestBytes": 3352
+    },
+    {
+      "file": "122.jpg",
+      "label": "Watches",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1591.615977999987,
+      "requestBytes": 3872
+    },
+    {
+      "file": "123.jpg",
+      "label": "Flip Flops",
+      "inCatalog": true,
+      "raw": "Flip Flops.",
+      "pred": "Flip Flops",
+      "correct": true,
+      "ms": 1877.5220010000048,
+      "requestBytes": 2936
+    },
+    {
+      "file": "124.jpg",
+      "label": "Sports Shoes",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2357.928757000016,
+      "requestBytes": 2812
+    },
+    {
+      "file": "125.jpg",
+      "label": "Formal Shoes",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2249.2023270000063,
+      "requestBytes": 2712
+    },
+    {
+      "file": "126.jpg",
+      "label": "Sarees",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 3264.8633209999825,
+      "requestBytes": 3512
+    },
+    {
+      "file": "127.jpg",
+      "label": "Bra",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2708.681507000001,
+      "requestBytes": 4120
+    },
+    {
+      "file": "128.jpg",
+      "label": "Clutches",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2620.671306000004,
+      "requestBytes": 2592
+    },
+    {
+      "file": "129.jpg",
+      "label": "Flip Flops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2002.2629139999917,
+      "requestBytes": 2660
+    },
+    {
+      "file": "130.jpg",
+      "label": "Earrings",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2152.8185879999946,
+      "requestBytes": 2040
+    },
+    {
+      "file": "131.jpg",
+      "label": "Wallets",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2930.910912000021,
+      "requestBytes": 2620
+    },
+    {
+      "file": "132.jpg",
+      "label": "Sports Shoes",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1790.7988140000089,
+      "requestBytes": 2896
+    },
+    {
+      "file": "133.jpg",
+      "label": "Casual Shoes",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1699.3765640000056,
+      "requestBytes": 2876
+    },
+    {
+      "file": "134.jpg",
+      "label": "Dresses",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1746.4240829999908,
+      "requestBytes": 3512
+    },
+    {
+      "file": "135.jpg",
+      "label": "Formal Shoes",
+      "inCatalog": false,
+      "raw": "T-Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1859.6015520000074,
+      "requestBytes": 2924
+    },
+    {
+      "file": "136.jpg",
+      "label": "Deodorant",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1811.8301590000046,
+      "requestBytes": 2588
+    },
+    {
+      "file": "137.jpg",
+      "label": "Tops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1726.0569930000056,
+      "requestBytes": 3372
+    },
+    {
+      "file": "138.jpg",
+      "label": "Bra",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1783.0149299999757,
+      "requestBytes": 3756
+    },
+    {
+      "file": "139.jpg",
+      "label": "Belts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2146.549355999974,
+      "requestBytes": 2908
+    },
+    {
+      "file": "140.jpg",
+      "label": "Watches",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1853.1190620000125,
+      "requestBytes": 3112
+    },
+    {
+      "file": "141.jpg",
+      "label": "Kurtas",
+      "inCatalog": true,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1956.8959119999781,
+      "requestBytes": 3776
+    },
+    {
+      "file": "142.jpg",
+      "label": "Sports Shoes",
+      "inCatalog": true,
+      "raw": "Shoes.",
+      "pred": null,
+      "correct": false,
+      "ms": 1740.8363019999815,
+      "requestBytes": 3052
+    },
+    {
+      "file": "143.jpg",
+      "label": "Deodorant",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1798.5274439999484,
+      "requestBytes": 2468
+    },
+    {
+      "file": "144.jpg",
+      "label": "Belts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1926.4458999999915,
+      "requestBytes": 2364
+    },
+    {
+      "file": "145.jpg",
+      "label": "Sunglasses",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1952.2193499999703,
+      "requestBytes": 2752
+    },
+    {
+      "file": "146.jpg",
+      "label": "Backpacks",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1889.5762380000087,
+      "requestBytes": 2604
+    },
+    {
+      "file": "147.jpg",
+      "label": "Sunglasses",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1962.4175680000335,
+      "requestBytes": 2388
+    },
+    {
+      "file": "148.jpg",
+      "label": "Flip Flops",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2013.003012000001,
+      "requestBytes": 2888
+    },
+    {
+      "file": "149.jpg",
+      "label": "Sunglasses",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1686.124225000036,
+      "requestBytes": 2552
+    },
+    {
+      "file": "150.jpg",
+      "label": "Tshirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": true,
+      "ms": 1894.3040699999547,
+      "requestBytes": 3752
+    },
+    {
+      "file": "151.jpg",
+      "label": "Sports Shoes",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2083.033580999996,
+      "requestBytes": 3312
+    },
+    {
+      "file": "152.jpg",
+      "label": "Briefs",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1833.9926059999852,
+      "requestBytes": 2612
+    },
+    {
+      "file": "153.jpg",
+      "label": "Tshirts",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": true,
+      "ms": 1736.89771499997,
+      "requestBytes": 4016
+    },
+    {
+      "file": "154.jpg",
+      "label": "Track Pants",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 2121.903259999992,
+      "requestBytes": 2484
+    },
+    {
+      "file": "155.jpg",
+      "label": "Wallets",
+      "inCatalog": true,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1932.544005999982,
+      "requestBytes": 2276
+    },
+    {
+      "file": "156.jpg",
+      "label": "Earrings",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1666.4898210000247,
+      "requestBytes": 2192
+    },
+    {
+      "file": "157.jpg",
+      "label": "Flats",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1518.6254299999564,
+      "requestBytes": 2588
+    },
+    {
+      "file": "158.jpg",
+      "label": "Kurtas",
+      "inCatalog": true,
+      "raw": "Shirts.",
+      "pred": "Shirts",
+      "correct": false,
+      "ms": 1581.2125799999922,
+      "requestBytes": 3288
+    },
+    {
+      "file": "159.jpg",
+      "label": "Flip Flops",
+      "inCatalog": true,
+      "raw": "Clothes.",
+      "pred": null,
+      "correct": false,
+      "ms": 1640.0110010000062,
+      "requestBytes": 2772
+    },
+    {
+      "file": "160.jpg",
+      "label": "Jeans",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1654.3641180000268,
+      "requestBytes": 3488
+    },
+    {
+      "file": "161.jpg",
+      "label": "Sarees",
+      "inCatalog": false,
+      "raw": "Casual Shoes.",
+      "pred": "Casual Shoes",
+      "correct": false,
+      "ms": 1868.8947610000032,
+      "requestBytes": 3368
+    },
+    {
+      "file": "162.jpg",
+      "label": "Jeans",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1764.3910690000048,
+      "requestBytes": 3164
+    },
+    {
+      "file": "163.jpg",
+      "label": "Socks",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1786.919068999996,
+      "requestBytes": 3164
+    },
+    {
+      "file": "164.jpg",
+      "label": "Deodorant",
+      "inCatalog": false,
+      "raw": "Tshirts.",
+      "pred": "Tshirts",
+      "correct": false,
+      "ms": 1748.0858289999887,
+      "requestBytes": 2712
+    }
+  ]
+}

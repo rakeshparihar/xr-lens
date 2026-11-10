@@ -1,0 +1,864 @@
+{
+ "catalog": [
+  "Tshirts",
+  "Shirts",
+  "Casual Shoes",
+  "Watches",
+  "Sports Shoes",
+  "Kurtas",
+  "Tops",
+  "Handbags",
+  "Heels",
+  "Sunglasses",
+  "Wallets",
+  "Flip Flops",
+  "Sandals",
+  "Briefs",
+  "Belts"
+ ],
+ "outOfCatalog": [
+  "Backpacks",
+  "Socks",
+  "Formal Shoes",
+  "Perfume and Body Mist",
+  "Jeans",
+  "Shorts",
+  "Trousers",
+  "Flats",
+  "Bra",
+  "Dresses",
+  "Sarees",
+  "Earrings",
+  "Deodorant",
+  "Track Pants",
+  "Clutches"
+ ],
+ "items": [
+  {
+   "file": "000.jpg",
+   "label": "Tshirts",
+   "inCatalog": true
+  },
+  {
+   "file": "001.jpg",
+   "label": "Sandals",
+   "inCatalog": true
+  },
+  {
+   "file": "002.jpg",
+   "label": "Track Pants",
+   "inCatalog": false
+  },
+  {
+   "file": "003.jpg",
+   "label": "Track Pants",
+   "inCatalog": false
+  },
+  {
+   "file": "004.jpg",
+   "label": "Tops",
+   "inCatalog": true
+  },
+  {
+   "file": "005.jpg",
+   "label": "Flip Flops",
+   "inCatalog": true
+  },
+  {
+   "file": "006.jpg",
+   "label": "Bra",
+   "inCatalog": false
+  },
+  {
+   "file": "007.jpg",
+   "label": "Watches",
+   "inCatalog": true
+  },
+  {
+   "file": "008.jpg",
+   "label": "Heels",
+   "inCatalog": true
+  },
+  {
+   "file": "009.jpg",
+   "label": "Shirts",
+   "inCatalog": true
+  },
+  {
+   "file": "010.jpg",
+   "label": "Backpacks",
+   "inCatalog": false
+  },
+  {
+   "file": "011.jpg",
+   "label": "Perfume and Body Mist",
+   "inCatalog": false
+  },
+  {
+   "file": "012.jpg",
+   "label": "Belts",
+   "inCatalog": true
+  },
+  {
+   "file": "013.jpg",
+   "label": "Shirts",
+   "inCatalog": true
+  },
+  {
+   "file": "014.jpg",
+   "label": "Casual Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "015.jpg",
+   "label": "Shirts",
+   "inCatalog": true
+  },
+  {
+   "file": "016.jpg",
+   "label": "Flats",
+   "inCatalog": false
+  },
+  {
+   "file": "017.jpg",
+   "label": "Socks",
+   "inCatalog": false
+  },
+  {
+   "file": "018.jpg",
+   "label": "Tops",
+   "inCatalog": true
+  },
+  {
+   "file": "019.jpg",
+   "label": "Kurtas",
+   "inCatalog": true
+  },
+  {
+   "file": "020.jpg",
+   "label": "Dresses",
+   "inCatalog": false
+  },
+  {
+   "file": "021.jpg",
+   "label": "Sarees",
+   "inCatalog": false
+  },
+  {
+   "file": "022.jpg",
+   "label": "Casual Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "023.jpg",
+   "label": "Tops",
+   "inCatalog": true
+  },
+  {
+   "file": "024.jpg",
+   "label": "Dresses",
+   "inCatalog": false
+  },
+  {
+   "file": "025.jpg",
+   "label": "Shirts",
+   "inCatalog": true
+  },
+  {
+   "file": "026.jpg",
+   "label": "Briefs",
+   "inCatalog": true
+  },
+  {
+   "file": "027.jpg",
+   "label": "Flip Flops",
+   "inCatalog": true
+  },
+  {
+   "file": "028.jpg",
+   "label": "Briefs",
+   "inCatalog": true
+  },
+  {
+   "file": "029.jpg",
+   "label": "Sandals",
+   "inCatalog": true
+  },
+  {
+   "file": "030.jpg",
+   "label": "Heels",
+   "inCatalog": true
+  },
+  {
+   "file": "031.jpg",
+   "label": "Flats",
+   "inCatalog": false
+  },
+  {
+   "file": "032.jpg",
+   "label": "Handbags",
+   "inCatalog": true
+  },
+  {
+   "file": "033.jpg",
+   "label": "Casual Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "034.jpg",
+   "label": "Casual Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "035.jpg",
+   "label": "Clutches",
+   "inCatalog": false
+  },
+  {
+   "file": "036.jpg",
+   "label": "Watches",
+   "inCatalog": true
+  },
+  {
+   "file": "037.jpg",
+   "label": "Tshirts",
+   "inCatalog": true
+  },
+  {
+   "file": "038.jpg",
+   "label": "Belts",
+   "inCatalog": true
+  },
+  {
+   "file": "039.jpg",
+   "label": "Casual Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "040.jpg",
+   "label": "Heels",
+   "inCatalog": true
+  },
+  {
+   "file": "041.jpg",
+   "label": "Wallets",
+   "inCatalog": true
+  },
+  {
+   "file": "042.jpg",
+   "label": "Shorts",
+   "inCatalog": false
+  },
+  {
+   "file": "043.jpg",
+   "label": "Heels",
+   "inCatalog": true
+  },
+  {
+   "file": "044.jpg",
+   "label": "Sports Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "045.jpg",
+   "label": "Trousers",
+   "inCatalog": false
+  },
+  {
+   "file": "046.jpg",
+   "label": "Shorts",
+   "inCatalog": false
+  },
+  {
+   "file": "047.jpg",
+   "label": "Wallets",
+   "inCatalog": true
+  },
+  {
+   "file": "048.jpg",
+   "label": "Belts",
+   "inCatalog": true
+  },
+  {
+   "file": "049.jpg",
+   "label": "Tops",
+   "inCatalog": true
+  },
+  {
+   "file": "050.jpg",
+   "label": "Belts",
+   "inCatalog": true
+  },
+  {
+   "file": "051.jpg",
+   "label": "Flip Flops",
+   "inCatalog": true
+  },
+  {
+   "file": "052.jpg",
+   "label": "Briefs",
+   "inCatalog": true
+  },
+  {
+   "file": "053.jpg",
+   "label": "Clutches",
+   "inCatalog": false
+  },
+  {
+   "file": "054.jpg",
+   "label": "Perfume and Body Mist",
+   "inCatalog": false
+  },
+  {
+   "file": "055.jpg",
+   "label": "Handbags",
+   "inCatalog": true
+  },
+  {
+   "file": "056.jpg",
+   "label": "Handbags",
+   "inCatalog": true
+  },
+  {
+   "file": "057.jpg",
+   "label": "Sandals",
+   "inCatalog": true
+  },
+  {
+   "file": "058.jpg",
+   "label": "Heels",
+   "inCatalog": true
+  },
+  {
+   "file": "059.jpg",
+   "label": "Sunglasses",
+   "inCatalog": true
+  },
+  {
+   "file": "060.jpg",
+   "label": "Tshirts",
+   "inCatalog": true
+  },
+  {
+   "file": "061.jpg",
+   "label": "Handbags",
+   "inCatalog": true
+  },
+  {
+   "file": "062.jpg",
+   "label": "Track Pants",
+   "inCatalog": false
+  },
+  {
+   "file": "063.jpg",
+   "label": "Handbags",
+   "inCatalog": true
+  },
+  {
+   "file": "064.jpg",
+   "label": "Shorts",
+   "inCatalog": false
+  },
+  {
+   "file": "065.jpg",
+   "label": "Jeans",
+   "inCatalog": false
+  },
+  {
+   "file": "066.jpg",
+   "label": "Tops",
+   "inCatalog": true
+  },
+  {
+   "file": "067.jpg",
+   "label": "Perfume and Body Mist",
+   "inCatalog": false
+  },
+  {
+   "file": "068.jpg",
+   "label": "Wallets",
+   "inCatalog": true
+  },
+  {
+   "file": "069.jpg",
+   "label": "Backpacks",
+   "inCatalog": false
+  },
+  {
+   "file": "070.jpg",
+   "label": "Bra",
+   "inCatalog": false
+  },
+  {
+   "file": "071.jpg",
+   "label": "Earrings",
+   "inCatalog": false
+  },
+  {
+   "file": "072.jpg",
+   "label": "Sandals",
+   "inCatalog": true
+  },
+  {
+   "file": "073.jpg",
+   "label": "Sandals",
+   "inCatalog": true
+  },
+  {
+   "file": "074.jpg",
+   "label": "Sunglasses",
+   "inCatalog": true
+  },
+  {
+   "file": "075.jpg",
+   "label": "Kurtas",
+   "inCatalog": true
+  },
+  {
+   "file": "076.jpg",
+   "label": "Sarees",
+   "inCatalog": false
+  },
+  {
+   "file": "077.jpg",
+   "label": "Backpacks",
+   "inCatalog": false
+  },
+  {
+   "file": "078.jpg",
+   "label": "Wallets",
+   "inCatalog": true
+  },
+  {
+   "file": "079.jpg",
+   "label": "Sunglasses",
+   "inCatalog": true
+  },
+  {
+   "file": "080.jpg",
+   "label": "Shirts",
+   "inCatalog": true
+  },
+  {
+   "file": "081.jpg",
+   "label": "Wallets",
+   "inCatalog": true
+  },
+  {
+   "file": "082.jpg",
+   "label": "Heels",
+   "inCatalog": true
+  },
+  {
+   "file": "083.jpg",
+   "label": "Flats",
+   "inCatalog": false
+  },
+  {
+   "file": "084.jpg",
+   "label": "Perfume and Body Mist",
+   "inCatalog": false
+  },
+  {
+   "file": "085.jpg",
+   "label": "Kurtas",
+   "inCatalog": true
+  },
+  {
+   "file": "086.jpg",
+   "label": "Kurtas",
+   "inCatalog": true
+  },
+  {
+   "file": "087.jpg",
+   "label": "Casual Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "088.jpg",
+   "label": "Dresses",
+   "inCatalog": false
+  },
+  {
+   "file": "089.jpg",
+   "label": "Sports Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "090.jpg",
+   "label": "Socks",
+   "inCatalog": false
+  },
+  {
+   "file": "091.jpg",
+   "label": "Kurtas",
+   "inCatalog": true
+  },
+  {
+   "file": "092.jpg",
+   "label": "Socks",
+   "inCatalog": false
+  },
+  {
+   "file": "093.jpg",
+   "label": "Sandals",
+   "inCatalog": true
+  },
+  {
+   "file": "094.jpg",
+   "label": "Trousers",
+   "inCatalog": false
+  },
+  {
+   "file": "095.jpg",
+   "label": "Sports Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "096.jpg",
+   "label": "Briefs",
+   "inCatalog": true
+  },
+  {
+   "file": "097.jpg",
+   "label": "Watches",
+   "inCatalog": true
+  },
+  {
+   "file": "098.jpg",
+   "label": "Trousers",
+   "inCatalog": false
+  },
+  {
+   "file": "099.jpg",
+   "label": "Earrings",
+   "inCatalog": false
+  },
+  {
+   "file": "100.jpg",
+   "label": "Handbags",
+   "inCatalog": true
+  },
+  {
+   "file": "101.jpg",
+   "label": "Shirts",
+   "inCatalog": true
+  },
+  {
+   "file": "102.jpg",
+   "label": "Heels",
+   "inCatalog": true
+  },
+  {
+   "file": "103.jpg",
+   "label": "Handbags",
+   "inCatalog": true
+  },
+  {
+   "file": "104.jpg",
+   "label": "Tshirts",
+   "inCatalog": true
+  },
+  {
+   "file": "105.jpg",
+   "label": "Shorts",
+   "inCatalog": false
+  },
+  {
+   "file": "106.jpg",
+   "label": "Shirts",
+   "inCatalog": true
+  },
+  {
+   "file": "107.jpg",
+   "label": "Belts",
+   "inCatalog": true
+  },
+  {
+   "file": "108.jpg",
+   "label": "Formal Shoes",
+   "inCatalog": false
+  },
+  {
+   "file": "109.jpg",
+   "label": "Sunglasses",
+   "inCatalog": true
+  },
+  {
+   "file": "110.jpg",
+   "label": "Formal Shoes",
+   "inCatalog": false
+  },
+  {
+   "file": "111.jpg",
+   "label": "Trousers",
+   "inCatalog": false
+  },
+  {
+   "file": "112.jpg",
+   "label": "Tshirts",
+   "inCatalog": true
+  },
+  {
+   "file": "113.jpg",
+   "label": "Briefs",
+   "inCatalog": true
+  },
+  {
+   "file": "114.jpg",
+   "label": "Deodorant",
+   "inCatalog": false
+  },
+  {
+   "file": "115.jpg",
+   "label": "Briefs",
+   "inCatalog": true
+  },
+  {
+   "file": "116.jpg",
+   "label": "Sandals",
+   "inCatalog": true
+  },
+  {
+   "file": "117.jpg",
+   "label": "Watches",
+   "inCatalog": true
+  },
+  {
+   "file": "118.jpg",
+   "label": "Tops",
+   "inCatalog": true
+  },
+  {
+   "file": "119.jpg",
+   "label": "Clutches",
+   "inCatalog": false
+  },
+  {
+   "file": "120.jpg",
+   "label": "Jeans",
+   "inCatalog": false
+  },
+  {
+   "file": "121.jpg",
+   "label": "Watches",
+   "inCatalog": true
+  },
+  {
+   "file": "122.jpg",
+   "label": "Watches",
+   "inCatalog": true
+  },
+  {
+   "file": "123.jpg",
+   "label": "Flip Flops",
+   "inCatalog": true
+  },
+  {
+   "file": "124.jpg",
+   "label": "Sports Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "125.jpg",
+   "label": "Formal Shoes",
+   "inCatalog": false
+  },
+  {
+   "file": "126.jpg",
+   "label": "Sarees",
+   "inCatalog": false
+  },
+  {
+   "file": "127.jpg",
+   "label": "Bra",
+   "inCatalog": false
+  },
+  {
+   "file": "128.jpg",
+   "label": "Clutches",
+   "inCatalog": false
+  },
+  {
+   "file": "129.jpg",
+   "label": "Flip Flops",
+   "inCatalog": true
+  },
+  {
+   "file": "130.jpg",
+   "label": "Earrings",
+   "inCatalog": false
+  },
+  {
+   "file": "131.jpg",
+   "label": "Wallets",
+   "inCatalog": true
+  },
+  {
+   "file": "132.jpg",
+   "label": "Sports Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "133.jpg",
+   "label": "Casual Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "134.jpg",
+   "label": "Dresses",
+   "inCatalog": false
+  },
+  {
+   "file": "135.jpg",
+   "label": "Formal Shoes",
+   "inCatalog": false
+  },
+  {
+   "file": "136.jpg",
+   "label": "Deodorant",
+   "inCatalog": false
+  },
+  {
+   "file": "137.jpg",
+   "label": "Tops",
+   "inCatalog": true
+  },
+  {
+   "file": "138.jpg",
+   "label": "Bra",
+   "inCatalog": false
+  },
+  {
+   "file": "139.jpg",
+   "label": "Belts",
+   "inCatalog": true
+  },
+  {
+   "file": "140.jpg",
+   "label": "Watches",
+   "inCatalog": true
+  },
+  {
+   "file": "141.jpg",
+   "label": "Kurtas",
+   "inCatalog": true
+  },
+  {
+   "file": "142.jpg",
+   "label": "Sports Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "143.jpg",
+   "label": "Deodorant",
+   "inCatalog": false
+  },
+  {
+   "file": "144.jpg",
+   "label": "Belts",
+   "inCatalog": true
+  },
+  {
+   "file": "145.jpg",
+   "label": "Sunglasses",
+   "inCatalog": true
+  },
+  {
+   "file": "146.jpg",
+   "label": "Backpacks",
+   "inCatalog": false
+  },
+  {
+   "file": "147.jpg",
+   "label": "Sunglasses",
+   "inCatalog": true
+  },
+  {
+   "file": "148.jpg",
+   "label": "Flip Flops",
+   "inCatalog": true
+  },
+  {
+   "file": "149.jpg",
+   "label": "Sunglasses",
+   "inCatalog": true
+  },
+  {
+   "file": "150.jpg",
+   "label": "Tshirts",
+   "inCatalog": true
+  },
+  {
+   "file": "151.jpg",
+   "label": "Sports Shoes",
+   "inCatalog": true
+  },
+  {
+   "file": "152.jpg",
+   "label": "Briefs",
+   "inCatalog": true
+  },
+  {
+   "file": "153.jpg",
+   "label": "Tshirts",
+   "inCatalog": true
+  },
+  {
+   "file": "154.jpg",
+   "label": "Track Pants",
+   "inCatalog": false
+  },
+  {
+   "file": "155.jpg",
+   "label": "Wallets",
+   "inCatalog": true
+  },
+  {
+   "file": "156.jpg",
+   "label": "Earrings",
+   "inCatalog": false
+  },
+  {
+   "file": "157.jpg",
+   "label": "Flats",
+   "inCatalog": false
+  },
+  {
+   "file": "158.jpg",
+   "label": "Kurtas",
+   "inCatalog": true
+  },
+  {
+   "file": "159.jpg",
+   "label": "Flip Flops",
+   "inCatalog": true
+  },
+  {
+   "file": "160.jpg",
+   "label": "Jeans",
+   "inCatalog": false
+  },
+  {
+   "file": "161.jpg",
+   "label": "Sarees",
+   "inCatalog": false
+  },
+  {
+   "file": "162.jpg",
+   "label": "Jeans",
+   "inCatalog": false
+  },
+  {
+   "file": "163.jpg",
+   "label": "Socks",
+   "inCatalog": false
+  },
+  {
+   "file": "164.jpg",
+   "label": "Deodorant",
+   "inCatalog": false
+  }
+ ],
+ "source": "ashraq/fashion-product-images-small"
+}
