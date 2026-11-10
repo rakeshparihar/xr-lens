@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>XR Lens</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { margin: 0; font: 15px/1.4 system-ui, sans-serif; background: #0f1115; color: #e8e8ea; }
+    main { max-width: 900px; margin: 0 auto; padding: 16px; }
+    video { width: 100%; border-radius: 12px; background: #000; cursor: crosshair; }
+    button { font: inherit; padding: 10px 18px; border-radius: 8px; border: 0; background: #3b82f6; color: #fff; }
+    #log { padding-left: 18px; color: #c8ccd2; font-variant-numeric: tabular-nums; }
+  </style>
+</head>
+<body>
+  <main id="overlay">
+    <h1>Point and ask</h1>
+    <p id="status">Starting…</p>
+    <button id="ar" hidden>Start AR</button>
+    <video id="video" playsinline muted></video>
+    <ul id="log"></ul>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
