@@ -1,0 +1,15 @@
+// Eraser flowchart source. Paste into an Eraser diagram (Flow chart).
+direction right
+
+Tap [shape: oval, icon: crosshair, label: "Tap (hit-test + camera frame)"]
+Crop [icon: crop, label: "Crop 224x224"]
+Edge [icon: smartphone, label: "SigLIP q8 on device"]
+Decide [shape: diamond, icon: git-branch, label: "confidence >= t?"]
+Cloud [icon: cloud, label: "VLM via OpenAI-compatible API"]
+Match [icon: check, label: "Match to categories"]
+Anchor [shape: oval, icon: map-pin, label: "Label on XR anchor"]
+
+Tap > Crop > Edge > Decide
+Decide > Anchor: yes
+Decide > Cloud: no
+Cloud > Match > Anchor
