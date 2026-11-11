@@ -1,0 +1,50 @@
+{
+ "size": [
+  960,
+  540
+ ],
+ "items": [
+  {
+   "category": "Watches",
+   "center": [
+    160,
+    135
+   ]
+  },
+  {
+   "category": "Handbags",
+   "center": [
+    480,
+    135
+   ]
+  },
+  {
+   "category": "Sunglasses",
+   "center": [
+    800,
+    135
+   ]
+  },
+  {
+   "category": "Casual Shoes",
+   "center": [
+    160,
+    405
+   ]
+  },
+  {
+   "category": "Wallets",
+   "center": [
+    480,
+    405
+   ]
+  },
+  {
+   "category": "Backpacks",
+   "center": [
+    800,
+    405
+   ]
+  }
+ ]
+}

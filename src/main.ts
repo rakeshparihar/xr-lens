@@ -15,7 +15,10 @@ const log = document.querySelector<HTMLElement>('#log')!;
 
 async function main() {
   status.textContent = 'Loading the on-device model…';
-  const edge = await EdgeClassifier.load(catalog);
+  // Where the on-device model comes from: the Hugging Face Hub by default, or a local copy set per environment
+  // (.env.development points at public/models so development works offline).
+  const env = import.meta.env;
+  const edge = await EdgeClassifier.load(catalog, { localPath: env.VITE_MODEL_PATH || undefined, wasmPaths: env.VITE_ORT_WASM_PATH || undefined });
   const run = (c: HTMLCanvasElement, x: number, y: number) => ask(cropAt(c, c.width, c.height, x, y), edge, { threshold, cloudUrl, cloudLabels });
   const arOk = await navigator.xr?.isSessionSupported('immersive-ar').catch(() => false);
   if (arOk) {
@@ -35,7 +38,16 @@ async function main() {
     const frame = document.createElement('canvas');
     frame.width = video.videoWidth; frame.height = video.videoHeight;
     frame.getContext('2d')!.drawImage(video, 0, 0);
+    // Pin a label where the user clicked, like the AR anchor does in a headset or phone.
+    const tag = document.createElement('div');
+    tag.className = 'tag';
+    tag.style.left = `${((e.clientX - r.left) / r.width) * 100}%`;
+    tag.style.top = `${((e.clientY - r.top) / r.height) * 100}%`;
+    tag.textContent = '…';
+    document.querySelector('.stage')!.appendChild(tag);
     const a = await run(frame, x, y);
+    tag.textContent = `${a.label ?? 'not sure'} · ${a.tier}`;
+    tag.classList.add(a.tier);
     const li = document.createElement('li');
     li.textContent = `${a.label ?? 'not sure'} · ${a.tier} · confidence ${a.confidence.toFixed(2)} · ${Math.round(a.edgeMs + (a.cloudMs ?? 0))} ms · ${a.bytesSent} bytes sent`;
     log.prepend(li);

@@ -2,6 +2,14 @@
 
 Point at a product in AR and ask what it is. A small model on the device answers when it is confident. When it is not, the crop goes to a vision-language model behind an OpenAI-compatible API. The project's main result is the measured trade-off between what runs on the device and what goes to the cloud.
 
+## Demo
+
+![The app's desktop fallback: clicking each product in the camera view pins a label and logs where it was answered](docs/img/demo.gif)
+
+The real app (desktop fallback, no AR) in headless Chromium, with the fake camera playing a still scene of six public catalog product photos (`scripts/demo_scene/`). Each click runs the on-device classifier; a green tag means it answered on the device, a blue one means it was sent to the cloud model. At the 0.6 threshold all six answered on the device, including the backpack, which is not in the catalog and was labelled Handbags at 0.99 confidence: the edge model is confidently wrong on out-of-catalog items, and the threshold alone does not catch that. Recorded with `scripts/record_demo.mjs`; the WebXR session itself is still untested on a device.
+
+![Screenshot of the app after the six clicks, with tags and the answer log](docs/img/app.png)
+
 ## Results
 
 165 product photos: 105 from 15 catalog categories the device knows, and 60 from 15 categories it has never been given ("out of catalog"). The on-device tier is SigLIP (quantized) in headless Chromium through Transformers.js. The cloud tier is SmolVLM-500M on CPU, standing in for a hosted VLM. It is asked an open question and its answer is mapped to the 30 categories.
